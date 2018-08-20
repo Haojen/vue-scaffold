@@ -1,6 +1,4 @@
-# 情景对话项目
+# Vue 脚手架
+> 基于 ·Webpack4· 
 
-## 项目启动
-
-> npm run start
 
