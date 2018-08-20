@@ -1,0 +1,33 @@
+/*
+  Remove margin
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p, ul{
+  margin: 0;
+}
+
+/* Reset list element style*/
+ul,
+ol{
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  display: inline-block;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}

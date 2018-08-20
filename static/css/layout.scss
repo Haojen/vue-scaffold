@@ -1,0 +1,45 @@
+/* Flex layout system by Hoajen */
+.use-flex {
+  display: flex;
+
+
+  >.flex-1 {
+    flex: 1;
+  }
+
+  &.is-column {
+    flex-direction: column;
+  }
+
+  &.is-wrap {
+    flex-wrap: wrap;
+  }
+
+  &.is-center {
+    align-items: center;
+    justify-content: center;
+  }
+
+  &.is-justify-between {
+    justify-content: space-between;
+  }
+
+  &.is-align-center {
+    align-items: center;
+  }
+
+  &.is-justify-center {
+    justify-content: center;
+  }
+}
+
+.hack-center {
+  display: table-row;
+
+  > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+

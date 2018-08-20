@@ -1,0 +1,64 @@
+{
+  "name": "vue-scaffold",
+  "version": "1.0.0",
+  "description": "vue-scaffold",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development --open",
+    "start:https": "webpack-dev-server --https --mode development --open"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "cssnano": "^4.0.5",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.2",
+    "postcss-import": "^12.0.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-pxtorem": "^4.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.21.0",
+    "vue-loader": "^15.3.0",
+    "vue-style-loader": "^4.1.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "hammerjs": "^2.0.8",
+    "normalize.css": "^8.0.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haojen/vue-template.git"
+  },
+  "keywords": [
+    "vue-cli",
+    "webpack4"
+  ],
+  "browserslist": [
+    "> 1%",
+    "last 3 versions",
+    "not ie <=11",
+    "iOS >=8",
+    "not ie_mob <=11"
+  ],
+  "author": "haojen ma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Haojen/vue-template/issues"
+  },
+  "homepage": "https://github.com/Haojen/vue-template#readme"
+}
